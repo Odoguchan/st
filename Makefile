@@ -52,7 +52,7 @@ install: st
 	@echo Please see the README file regarding the terminfo entry of st.
 	mkdir -p $(DESTDIR)$(PREFIX)/share/applications
 	cp -f st.desktop $(DESTDIR)$(PREFIX)/share/applications
-
+	cp
 
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/st
